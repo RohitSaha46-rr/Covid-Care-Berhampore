@@ -1,0 +1,189 @@
+/* ####################     MAX WIDTH: 500 PX    ###################### */
+@media (max-width: 500px) {
+
+    /* ---------------- HTML ROOT ELEMENT -------------------- */
+    html{
+        font-size: 12px;
+    }
+
+    /* ----------------- HEADER SECTION ---------------------- */
+
+    /* """""" Head """"" */
+    header .head{
+        height: 20vh;
+        flex-direction: column;
+        align-items: center;
+    }
+    header .head .logo{
+        width: 100%;
+        height: 48%;
+        text-align: center;
+    }
+    header .head .logo #brief{
+        margin: .1rem;
+    }
+    header .head .menu{
+        width: 100vw;
+        height: 48%;
+    }
+    header .head .menu ul{
+        width: 100vw;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 0px;
+        list-style: none;
+        padding: .5rem 0;
+    }
+    header .head .menu ul a{
+        font-size: 1rem;
+    }
+
+    /* """""" Content """""" */
+    header .content{
+        height: 50vh;
+        flex-direction: column;
+        position: absolute;
+        top: 20vh;
+    }
+    .image1{
+        width: 80vw;
+    }
+    .main_content h1, .main_content h3, .main_content span{
+        text-align: center;
+    }
+    header .content .main_content #virus,
+    header .content .main_content .first{
+        font-size: 1.5rem;
+        top: 0%;
+    }
+
+    /* """""" Update """""" */
+    header .update{
+        top: 75vh;
+        height: 55vh;
+        position: absolute;
+    }
+    header .update .cases{
+        width: 100vw;
+        height: 42.5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: .5rem;
+    }
+    header .update .active,
+    header .update .recovered,
+    header .update .deaths,
+    header .update .total{
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 1rem;
+        margin: .5rem;
+        box-shadow: 0 0 .5rem .2rem rgba(68, 68, 68, 0.639);
+        border-radius: .5rem;
+    }
+}
+
+/* ##################        MAX WIDTH: 768 PX     ############################## */
+@media (max-width: 768px) and (min-width: 501px) {
+
+    /* ---------------- HTML ROOT ELEMENT -------------------- */
+    html{
+        font-size: 15px;
+    }
+
+    /* ----------------- HEADER SECTION ---------------------- */
+    header{
+        height: 100vh;
+    }
+
+    /* """""" Head """"" */
+    header .head{
+        height: 15vh;
+        flex-direction: row;
+        align-items: center;
+    }
+    header .head .logo{
+        flex: 1;
+        height: 15vh;
+    }
+    header .head .logo #brief{
+        font-size: 3rem;
+        margin-left: 70px;
+        padding-top: 15px;
+        color: rgb(247, 6, 66);
+        
+    }
+    header .head .menu{
+        flex: 10;
+        height: 15vh;
+    }
+    header .head .menu ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        list-style: none;
+    }
+    header .head .menu ul a{
+        font-size: 1rem;
+        padding: 2rem;
+    }
+    .active{
+        background-color: rgb(128 117 117 / 90%);
+    }
+
+    /* """""" Content """""" */
+    header .content{
+        height: 50vh;
+        flex-direction: row;
+        position: absolute;
+        top: 10vh;
+    }
+    .image1{
+        width: 45vw;
+    }
+    .main_content h1, .main_content h3, .main_content span{
+        text-align: center;
+    }
+    header .content .main_content #virus,
+    header .content .main_content .first{
+        font-size: 1.5rem;
+        top: 0%;
+    }
+
+    /* """""" Update """""" */
+    header .update{
+        top: 55vh;
+        height: 40vh;
+        position: absolute;
+    }
+    header .update .cases{
+        width: 100vw;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: .5rem;
+    }
+    header .update .active,
+    header .update .recovered,
+    header .update .deaths,
+    header .update .total{
+        height: 50%;
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 1rem;
+        margin: .5rem;
+        box-shadow: 0 0 .5rem .2rem rgba(102, 102, 102, 0.455);
+        border-radius: .5rem;
+    }
+}
