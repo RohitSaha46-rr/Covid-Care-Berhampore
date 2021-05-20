@@ -416,3 +416,77 @@ width: 100vw;
 #sec .content .footer #btn:hover{
     background-color: #09ddd2;
 }
+/*--------------------------------------------------------------------------------Ambulance----------------------------------------------------------------------------------*/
+#ambulance{
+    width: 100vw;
+}
+#ambulance .head{
+    width: 100vw;
+    height: 10vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ambulance .head h1{
+    font-family: 'Train One', cursive;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #03a9f4;
+}
+#ambulance .content{
+    width: 80vw;
+    height: 80vh;
+    
+    margin-left: 50px;
+}
+#ambulance .content .hos{
+    width: 80vw;
+    height: 5vh;
+    display: flex;
+}
+#ambulance .content .hos #hospital{
+    font-size: 2rem;
+    color: darkred;
+}
+#ambulance .content .hos h1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+
+#ambulance .content .loc{
+    width: 80vw;
+    height: 5vh;
+    display: flex;
+    margin-top: 9px;
+}
+#ambulance .content .loc #location{
+    font-size: 2rem;
+    color: red;
+}
+#ambulance .content .loc h1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+#ambulance .content .main_content h1{
+    border-bottom: 1px solid #03a9f4;
+    
+}
+#ambulance .content .main_content .booking{
+    width: 80vw;
+    height: 5vh;
+    display: flex;
+}
+#ambulance .content .booking #user{
+    font-size: 2rem;
+    color: rgb(0, 83, 139);
+}
+#ambulance .content .booking h1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+#ambulance .content .booking p{
+    font-size: 1.5rem;
+}
