@@ -416,7 +416,7 @@ width: 100vw;
 #sec .content .footer #btn:hover{
     background-color: #09ddd2;
 }
-/*--------------------------------------------------------------------------------Ambulance----------------------------------------------------------------------------------*/
+/*---------------------------------------------------Ambulance-----------------------------------------------------*/
 #ambulance{
     width: 100vw;
 }
@@ -435,23 +435,30 @@ width: 100vw;
 }
 #ambulance .content{
     width: 80vw;
-    height: 80vh;
-    
-    margin-left: 50px;
+    height: 60vh;
+    box-shadow: 6px 6px 7px gray,-6px -6px 7px gray;
+    margin:auto;
+    margin-top: 40px;
+    padding-top: 20px;
 }
 #ambulance .content .hos{
     width: 80vw;
     height: 5vh;
     display: flex;
+   /* background:linear-gradient(to right, #8360c3,#2ebf91);*/
+    
 }
 #ambulance .content .hos #hospital{
     font-size: 2rem;
     color: darkred;
+    padding-left: 10px;
 }
 #ambulance .content .hos h1{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     padding-top: 8px;
     padding-left: 5px;
+    /*color: whitesmoke;*/
+    color: #03a9f4;
 }
 
 #ambulance .content .loc{
@@ -459,18 +466,32 @@ width: 100vw;
     height: 5vh;
     display: flex;
     margin-top: 9px;
+   /* background:linear-gradient(to right, #654ea3,#eaafc8);*/
+    
 }
 #ambulance .content .loc #location{
     font-size: 2rem;
     color: red;
+    padding-left: 10px;
 }
 #ambulance .content .loc h1{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     padding-top: 8px;
     padding-left: 5px;
+    /*color: #8adce6;*/
+    color: #03a9f4;
 }
-#ambulance .content .main_content h1{
-    border-bottom: 1px solid #03a9f4;
+#ambulance .content .main_content{
+    width: 100%;
+    height: 45vh;
+background-color: blanchedalmond;
+}
+#ambulance .content .main_content #book{
+    border-bottom: 3px solid #03a9f4;
+   display: inline;
+   margin-left: 12px;
+  padding-bottom: 5px;
+   
     
 }
 #ambulance .content .main_content .booking{
@@ -478,15 +499,101 @@ width: 100vw;
     height: 5vh;
     display: flex;
 }
-#ambulance .content .booking #user{
+#ambulance .content .main_content .booking #user{
     font-size: 2rem;
     color: rgb(0, 83, 139);
+    padding-top: 15px;
+    padding-left: 10px;
 }
-#ambulance .content .booking h1{
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    padding-top: 8px;
+
+#ambulance .content .main_content .booking p{
+    font-size: 1.5rem;
+    padding-top: 19px;
     padding-left: 5px;
 }
-#ambulance .content .booking p{
+#ambulance .content .main_content .call{
+    width: 80vw;
+    height: 5vh;
+    display: flex;
+}
+#ambulance .content .main_content .call #mobile{
+    font-size: 2rem;
+    color: rgb(0, 83, 139);
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+#ambulance .content .main_content .call p{
     font-size: 1.5rem;
+    padding-top: 21px;
+    padding-left: 5px;
+}
+#ambulance .content .main_content #driver{
+    border-bottom: 3px solid #03a9f4;
+    display: inline;
+    position: relative;
+    top:20px;
+    left: 10px;
+}
+#ambulance .content .main_content .booking1{
+    width: 80vw;
+    height: 5vh;
+    display: flex;
+    
+}
+#ambulance .content .main_content .booking1 #user{
+    font-size: 1.7rem;
+    color: rgb(0, 83, 139);
+   position: relative;
+   top: 35px;
+   left: 5px;
+}
+
+#ambulance .content .main_content .booking1 p{
+    font-size: 1.3rem;
+    padding-top: 37px;
+    padding-left: 5px;
+}
+#ambulance .content .main_content .call1{
+    width: 80vw;
+    height: 5vh;
+    display: flex;
+}
+#ambulance .content .main_content .call1 #mobile{
+    font-size: 1.7rem;
+    color: rgb(0, 83, 139);
+    padding-top: 36px;
+    padding-left: 10px;
+}
+
+#ambulance .content .main_content .call1 p{
+    font-size: 1.3rem;
+    padding-top: 37px;
+    padding-left: 5px;
+}
+#ambulance .content1{
+    width: 80vw;
+    height: 85vh;
+    margin: auto;
+   box-shadow: 2px 2px 3px gray,-2px -2px 3px gray;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+#ambulance .content1 .no1{
+    display: flex;
+    font-size: 2rem;
+    color: #03a9f4;
+    padding-top: 10px;
+    
+}
+#ambulance .content1 p{
+    padding-left: 5px;
+    font-size: 1.5rem;
+}
+#ambulance .content1 .no2{
+    display: flex;
+    font-size: 2rem;
+    color: #03a9f4;
+    padding-top: 5px;
+    
 }
