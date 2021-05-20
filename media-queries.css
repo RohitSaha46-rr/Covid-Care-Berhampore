@@ -1,98 +1,9 @@
-/* ####################     MAX WIDTH: 500 PX    ###################### */
-@media (max-width: 500px) {
-
-    /* ---------------- HTML ROOT ELEMENT -------------------- */
-    html{
-        font-size: 12px;
-    }
-
-    /* ----------------- HEADER SECTION ---------------------- */
-
-    /* """""" Head """"" */
-    header .head{
-        height: 20vh;
-        flex-direction: column;
-        align-items: center;
-    }
-    header .head .logo{
-        width: 100%;
-        height: 48%;
-        text-align: center;
-    }
-    header .head .logo #brief{
-        margin: .1rem;
-    }
-    header .head .menu{
-        width: 100vw;
-        height: 48%;
-    }
-    header .head .menu ul{
-        width: 100vw;
-        display: flex;
-        justify-content: space-evenly;
-        margin-left: 0px;
-        list-style: none;
-        padding: .5rem 0;
-    }
-    header .head .menu ul a{
-        font-size: 1rem;
-    }
-
-    /* """""" Content """""" */
-    header .content{
-        height: 50vh;
-        flex-direction: column;
-        position: absolute;
-        top: 20vh;
-    }
-    .image1{
-        width: 80vw;
-    }
-    .main_content h1, .main_content h3, .main_content span{
-        text-align: center;
-    }
-    header .content .main_content #virus,
-    header .content .main_content .first{
-        font-size: 1.5rem;
-        top: 0%;
-    }
-
-    /* """""" Update """""" */
-    header .update{
-        top: 75vh;
-        height: 55vh;
-        position: absolute;
-    }
-    header .update .cases{
-        width: 100vw;
-        height: 42.5vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: .5rem;
-    }
-    header .update .active,
-    header .update .recovered,
-    header .update .deaths,
-    header .update .total{
-        width: 85%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0 1rem;
-        margin: .5rem;
-        box-shadow: 0 0 .5rem .2rem rgba(68, 68, 68, 0.639);
-        border-radius: .5rem;
-    }
-}
-
 /* ##################        MAX WIDTH: 768 PX     ############################## */
 @media (max-width: 768px) and (min-width: 501px) {
 
     /* ---------------- HTML ROOT ELEMENT -------------------- */
     html{
-        font-size: 15px;
+        font-size: 12px;
     }
 
     /* ----------------- HEADER SECTION ---------------------- */
@@ -102,24 +13,27 @@
 
     /* """""" Head """"" */
     header .head{
-        height: 15vh;
+        height: 10vh;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
     }
     header .head .logo{
-        flex: 1;
-        height: 15vh;
+        flex: 2;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     header .head .logo #brief{
         font-size: 3rem;
-        margin-left: 70px;
-        padding-top: 15px;
+        margin: 0%;
+        padding: 0%;
         color: rgb(247, 6, 66);
-        
     }
     header .head .menu{
-        flex: 10;
-        height: 15vh;
+        flex: 8;
+        height: 10vh;
     }
     header .head .menu ul{
         width: 100%;
@@ -131,7 +45,7 @@
     }
     header .head .menu ul a{
         font-size: 1rem;
-        padding: 2rem;
+        padding: 1.2rem;
     }
     .active{
         background-color: rgb(128 117 117 / 90%);
@@ -143,6 +57,7 @@
         flex-direction: row;
         position: absolute;
         top: 10vh;
+        padding: 0 2rem;
     }
     .image1{
         width: 45vw;
@@ -185,5 +100,237 @@
         margin: .5rem;
         box-shadow: 0 0 .5rem .2rem rgba(102, 102, 102, 0.455);
         border-radius: .5rem;
+    }
+
+    /* ------------------    HOSPITAL SECTION    ------------------------ */
+    #sec .content,
+    #sec .content .footer,
+    #sec .content .second_content{
+        width: 90vw;
+    }
+
+    #sec .content .maincontent,
+    #sec .content .second_content{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+    #sec .content .second_content .left .head1{
+        display: flex;
+        justify-content: center;
+    }
+    #sec .content .second_content .left .main_content1,
+    #sec .content .second_content .left .head1{
+        width: 97%;
+        flex-direction: column;
+    }
+
+    #sec .content .maincontent .male,
+    #sec .content .second_content .left .male{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        height: 8vh;
+        margin: .2em auto;
+    }
+    #sec .content .maincontent .male #m,
+    #sec .content .second_content .left .male #m{
+        flex: 1.5;
+        text-align: center;
+        letter-spacing: .05em;
+    }
+    #sec .content .maincontent .male .totalbeds,
+    #sec .content .maincontent .male .vacantbeds,
+    #sec .content .second_content .left .male .totalbeds,
+    #sec .content .second_content .left .male .vacantbeds
+    {
+        flex: 4.5;
+        height: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    #sec .content .second_content .left{
+        width: 100%;
+        height: auto;
+        border: none;
+        margin: .9rem auto;
+    }
+    #sec .content .footer p{
+        font-size: 1.2rem;
+    }
+    #sec .content .footer #btn{
+        width: 25vw;
+        height: 3.5rem;
+    }
+
+}
+
+/* ####################     MAX WIDTH: 500 PX    ###################### */
+@media (max-width: 500px) {
+
+    /* ---------------- HTML ROOT ELEMENT -------------------- */
+    html{
+        font-size: 10px;
+    }
+
+    /* ----------------- HEADER SECTION ---------------------- */
+
+    /* """""" Head """"" */
+    header .head{
+        height: 12vh;
+        flex-direction: column;
+        align-items: center;
+    }
+    header .head .logo{
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header .head .logo #brief{
+        margin: .1rem;
+    }
+    header .head .menu{
+        width: 100vw;
+        height: 7vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header .head .menu ul{
+        width: 100vw;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 0px;
+        list-style: none;
+        flex-wrap: wrap;
+        padding: 2rem 0;
+    }
+    header .head .menu ul a{
+        font-size: 1rem;
+    }
+
+    /* """""" Content """""" */
+    header .content{
+        height: 50vh;
+        flex-direction: column;
+        position: absolute;
+        top: 20vh;
+        padding: 0 2rem;
+    }
+    .image1{
+        width: 80vw;
+    }
+    .main_content h1, .main_content h3, .main_content span{
+        text-align: center;
+    }
+    header .content .main_content #virus,
+    header .content .main_content .first{
+        font-size: 1.5rem;
+        top: 0%;
+    }
+
+    /* """""" Update """""" */
+    header .update{
+        top: 75vh;
+        height: 55vh;
+        position: absolute;
+    }
+    header .update .cases{
+        width: 100vw;
+        height: 42.5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: .5rem;
+    }
+    header .update .active,
+    header .update .recovered,
+    header .update .deaths,
+    header .update .total{
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 1rem;
+        margin: .5rem;
+        box-shadow: 0 0 .5rem .2rem rgba(68, 68, 68, 0.639);
+        border-radius: .5rem;
+    }
+
+    
+    /* ------------------    HOSPITAL SECTION    ------------------------ */
+    #sec .content,
+    #sec .content .footer,
+    #sec .content .second_content{
+        width: 90vw;
+    }
+
+    #sec .content .maincontent,
+    #sec .content .second_content{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+    #sec .content .second_content .left .head1{
+        display: flex;
+        justify-content: center;
+    }
+    #sec .content .second_content .left .main_content1,
+    #sec .content .second_content .left .head1{
+        width: 97%;
+        flex-direction: column;
+    }
+    #sec .content .maincontent .male,
+    #sec .content .second_content .left .male{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        height: 5vh;
+        margin: .2em auto;
+    }
+    #sec .content .maincontent .male #m,
+    #sec .content .second_content .left .male #m{
+        flex: 2;
+        text-align: center;
+        letter-spacing: .05em;
+    }
+    #sec .content .maincontent .male .totalbeds,
+    #sec .content .maincontent .male .vacantbeds,
+    #sec .content .second_content .left .male .totalbeds,
+    #sec .content .second_content .left .male .vacantbeds
+    {
+        flex: 4;
+        height: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    #sec .content .second_content .left{
+        width: 100%;
+        height: auto;
+        border: none;
+        margin: .9rem auto;
+    }
+    #sec .content .footer p{
+        font-size: 1.2rem;
+    }
+    #sec .content .footer #btn{
+        width: 25vw;
+        height: 3.5rem;
+    }
+
+}
+
+@media (max-width:350px){
+    html{
+        font-size: 8px;
+    }
+    .totalbeds h1,
+    .vacantbeds h1{
+        font-size: .05rem;
     }
 }
