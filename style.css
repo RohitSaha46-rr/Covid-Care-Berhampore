@@ -597,3 +597,221 @@ background-color: blanchedalmond;
     padding-top: 5px;
     
 }
+/*-----------------------------------------------------------------cylinder-----------------------------------------*/
+#cylinder{
+width: 100vw;
+
+}
+#cylinder .head{
+    width: 100vw;
+    height: 10vh;
+
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cylinder .head h1{
+    font-family: 'Train One', cursive;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #03a9f4;
+}
+#cylinder .content {
+    width: 90vw;
+    
+    
+    margin: auto;
+}
+#cylinder .content h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    color: #03a9f4;
+    
+}
+#cylinder .content .main_content{
+    width: 80vw;
+  
+    
+    
+    color: #130258;
+    font-size: 1.2rem;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: space-between;
+}
+#cylinder .content .main_content .image2{
+    position: relative;
+    bottom: 20px;
+    width: 600px;
+    height: 500px;
+}
+#cylinder .content .image3{
+    width: 700px;
+    height: 800px;
+}
+#cylinder .content .right{
+    width: 100vw;
+    height: 130vh;
+    
+    display: flex;
+    
+}
+#cylinder .content .right .thank{
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cylinder .content .right .thank h1{
+    font-size: 3rem;
+    text-align: center;
+}
+/*------------------------------------------------------------------Foods----------------------------------------------*/
+#food{
+    width: 100vw;
+   height: 200vh;
+    background-color: #ddd;
+    }
+    #food .head{
+        width: 100vw;
+        height: 10vh;
+    
+       display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #food .head h1{
+        font-family: 'Train One', cursive;
+        padding-bottom: 5px;
+        border-bottom: 3px solid #03a9f4;
+    }
+    #food .content{
+        width: 100vw;
+        
+        
+    }
+    #food .content .card1{
+        width: 60vw;
+        height: 38vh;
+        background-color: whitesmoke;
+        box-shadow: 0 0.5rem 1rem rgb(110 108 108);
+        margin: auto;
+        display: flex;
+        margin-top: 30px;
+    }
+    #food .content .card1 .left{
+       
+
+    }
+    #food .content .card1 .left .image5{
+        height: 38vh;
+        width: 25vw;
+    }
+    #food .content .card1 .right{
+        width: 60vw;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        color: #03a9f4;
+    }
+    /*-----------------------------------------------------------------about us-----------------------------------------*/
+    #abt{
+        width: 100vw;
+        height: 100vh;
+    }
+    #abt .head{
+        width: 100vw;
+        height: 10vh;
+    
+       display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #abt .head h1{
+        font-family: 'Train One', cursive;
+        padding-bottom: 5px;
+        border-bottom: 3px solid #03a9f4;
+    }
+    #abt .content{
+        width: 100vw;
+        height: 75vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #abt .content .customer1{
+        width: 25vw;
+        height: 60vh;
+        border: 2px solid rgb(0, 225, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        transition: .7s;
+        cursor: pointer;
+    }
+   
+    #abt .content .customer1 .cus1_img:hover{
+        width: 200px;
+        height: 200px;
+    }
+    #abt .content .customer2{
+        width: 25vw;
+        height: 60vh;
+        border: 2px solid rgb(0, 225, 255);
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    #abt .content .customer3{
+        width: 25vw;
+        height: 60vh;
+       
+        border: 2px solid rgb(0, 225, 255);
+    }
+    #abt .content .customer1 .cus1_img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        position: relative;
+        bottom: 25px;
+        border: 5px solid white;
+        transition: 0.6s;
+        object-fit: cover;
+    }
+    #abt .content .customer1 .border{
+        width: 24.7vw;
+        height: 32.4vh;
+        background-color: deepskyblue;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-top-left-radius: 250px;
+        border-top-right-radius: 250px;
+        
+    }
+    
+    #abt .content .customer1 #quotes{
+        font-size: 7rem;
+        position: relative;
+        top: 0px;
+       color: deepskyblue;
+        
+    }
+    #abt .content .customer1 p{
+       position: relative;
+       bottom: 50px;
+        z-index: 2;
+        font-size: 1.2rem;
+        font-weight: bolder;
+        text-align: center;
+       
+        
+    }
+    #abt .content .customer1 .border h1{
+        color: white;
+    }
