@@ -6,8 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
 
 
-/* ##################        MAX WIDTH: 768 PX     ############################## */
-@media (max-width: 768px) and (min-width: 501px) {
+/* ##################        MAX WIDTH: 1024 PX     ############################## */
+@media (max-width: 1024px) and (min-width: 501px) {
 
     /* ---------------- HTML ROOT ELEMENT -------------------- */
     html{
@@ -172,7 +172,16 @@
         width: 25vw;
         height: 3.5rem;
     }
-
+    #sec .content .maincontent .more_info{
+        width: 50%;
+        margin: 1em 0em;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        font-weight: 600;
+        box-shadow: 0rem .2rem .3rem .2rem #80808076, -.1rem .1rem .2rem .1rem white inset;
+        color: rgba(20, 106, 255, 0.803);
+    }
     /* ------------------     AMBULANCE SECTION     -------------------- */
     #ambulance .content,
     #ambulance .content1{
@@ -212,6 +221,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    #ambulance .content .main_content .booking,
+    #ambulance .content .main_content .booking1{
+        width: 40%;
+    }
+    #ambulance .content .main_content .call,
+    #ambulance .content .main_content .call1{
+        width: 60%;
     }
     #ambulance .content .main_content .booking p,
     #ambulance .content .main_content .call p,
@@ -338,7 +355,7 @@
 
     /* """""" Head """"" */
     header .head{
-        height: 12vh;
+        height: 15vh;
         flex-direction: column;
         align-items: center;
     }
@@ -348,13 +365,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 1rem;
     }
     header .head .logo #brief{
         margin: .1rem;
     }
     header .head .menu{
         width: 100vw;
-        height: 7vh;
+        height: 10vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -366,10 +384,15 @@
         margin-left: 0px;
         list-style: none;
         flex-wrap: wrap;
-        padding: 2rem 0;
+        padding: 2rem 1rem;
+    }
+    header .head .menu ul li{
+        padding: 0rem 1rem 1rem 1rem;
     }
     header .head .menu ul a{
         font-size: 1rem;
+        padding-bottom: 0%;
+        border-bottom: 2px solid #03a9f4;
     }
 
     /* """""" Content """""" */
@@ -482,6 +505,16 @@
         width: 25vw;
         height: 3.5rem;
     }
+    #sec .content .maincontent .more_info{
+        width: 50%;
+        margin: 1em 0em;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        font-weight: 600;
+        box-shadow: 0rem .2rem .3rem .2rem #80808076, -.1rem .1rem .2rem .1rem white inset;
+        color: rgba(20, 106, 255, 0.803);
+    }
     
     /* ------------------     AMBULANCE SECTION     -------------------- */
     #ambulance .content,
@@ -517,17 +550,24 @@
     #ambulance .content .main_content .call,
     #ambulance .content .main_content .booking1,
     #ambulance .content .main_content .call1{
-        width: 48%;
         margin: 1.5rem 0rem;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+    #ambulance .content .main_content .booking,
+    #ambulance .content .main_content .booking1{
+        width: 40%;
+    }
+    #ambulance .content .main_content .call,
+    #ambulance .content .main_content .call1{
+        width: 60%;
+    }
     #ambulance .content .main_content .booking p,
     #ambulance .content .main_content .call p,
     #ambulance .content .main_content .booking1 p,
     #ambulance .content .main_content .call1 p{
-        font-size: 1.5rem;
+        font-size: .5rem;
         margin: 0 .5em;
         text-transform: capitalize;
         display: inline;
@@ -536,7 +576,7 @@
     #ambulance .content .main_content .call #mobile,
     #ambulance .content .main_content .booking1 #user,
     #ambulance .content .main_content .call1 #mobile{
-        font-size: 1.5rem;
+        font-size: .5rem;
         top: 50%;
     }
     .content1 h1{
@@ -545,13 +585,12 @@
     }
     #ambulance .content1 .no1,
     #ambulance .content1 .no2{
-        width: 48%;
+        width: 49%;
         display: flex;
     }
     #ambulance .content1 p{
         padding: .5rem;
-        font-size: 1.2rem;
-        flex-wrap: wrap;
+        font-size: .5rem;
     }
     #ambulance .content1 p a{
         font-size: 1rem;
@@ -648,11 +687,15 @@
         font-size: 1.25rem;
         bottom: 1rem;
     }
+    #abt .content .customer1 p{
+        font-size: .7rem;
+        bottom: 4rem;
+    }
 }
 
 @media (max-width:350px){
     html{
-        font-size: 8px;
+        font-size: 6px;
     }
     .totalbeds h1,
     .vacantbeds h1{
