@@ -317,7 +317,7 @@ width: 100vw;
 }
 #sec .content .hidden{
    
-    display: none;
+    
     transition: 2s ease-in;
 }
 #sec .content .second_content{
