@@ -205,7 +205,7 @@ width: 100vw;
     
     background-color: #d5ecbe;
     margin: auto;
-    padding-left: 20px;
+    padding: 20px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     margin-top: 30px;
 }
@@ -314,6 +314,9 @@ width: 100vw;
     border: none;
     outline: none;
     cursor: pointer;
+    font-weight: 700;
+    font-size: .8rem;
+    box-shadow: 0rem .2rem .3rem .2rem #80808076;
 }
 #sec .content .hidden{
    
@@ -500,6 +503,7 @@ width: 100vw;
 #ambulance .content .main_content{
     width: 100%;
     height: 45vh;
+    padding: 1rem;
 background-color: blanchedalmond;
 }
 #ambulance .content .main_content #book{
