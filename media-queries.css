@@ -567,7 +567,7 @@
     #ambulance .content .main_content .call p,
     #ambulance .content .main_content .booking1 p,
     #ambulance .content .main_content .call1 p{
-        font-size: .5rem;
+        font-size: 1.25rem;
         margin: 0 .5em;
         text-transform: capitalize;
         display: inline;
@@ -576,7 +576,7 @@
     #ambulance .content .main_content .call #mobile,
     #ambulance .content .main_content .booking1 #user,
     #ambulance .content .main_content .call1 #mobile{
-        font-size: .5rem;
+        font-size: 1.25rem;
         top: 50%;
     }
     .content1 h1{
@@ -587,10 +587,11 @@
     #ambulance .content1 .no2{
         width: 49%;
         display: flex;
+        font-size: 0.8rem;
     }
     #ambulance .content1 p{
         padding: .5rem;
-        font-size: .5rem;
+        font-size: .8rem;
     }
     #ambulance .content1 p a{
         font-size: 1rem;
